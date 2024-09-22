@@ -1,0 +1,9 @@
+{
+  "ocrSpaceApiKey" : "K86856796888957", 
+  "spamChannelID" : "1287360382306091111", 
+  "logChannelID" : "1287360237665255505", 
+  "errorChannelID" : "1287360306024153211", 
+  "OwnerID" : "1153611682250227764",
+  "TOKEN" : "Put Your TOKEN(if in replit , I'd recommend to put it in secret rather than here)"
+}
+
