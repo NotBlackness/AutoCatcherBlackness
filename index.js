@@ -7,6 +7,8 @@ Description: bot to help users with catching pokemons
 STAR THIS REPO(https://github.com/AkshatOP/Poketwo-Autocatcher) FOR IT TO WORK
 */
 const Discord = require("discord.js-selfbot-v13")
+const { readFileSync } = require('discord.js');
+
 const client = new Discord.Client({
     checkUpdate: false
 });
@@ -304,4 +306,4 @@ client.on('messageCreate', async message => {
         }
     }
 })
-client.login(process.env.TOKEN) //use process.env.TOKEN if you are using it in repl.it
+client.login(process.env.TOKEN || readFileSync('token.txt', 'utf-8')); //use process.env.TOKEN if you are using it in repl.it
